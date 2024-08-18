@@ -30,6 +30,7 @@ else:
 sys.path.append(ncu_report_path)
 import ncu_report
 
+os.system("pip3 install openpyxl")
 import openpyxl
 
 import re
